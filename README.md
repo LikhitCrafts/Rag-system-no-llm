@@ -56,6 +56,13 @@ How It Works
    - If nothing matches → returns *No Answer Found*
 
 ---
+requirements
+ 
+1. pymupdf
+2. faiss-cpu
+3. numpy
+4. tqdm
+-----
 
  How to Run
 
@@ -82,3 +89,4 @@ Support multiple PDFs
 Improve entity extraction for unstructured text
 Add UI (Streamlit / Web app)
 Add OCL Tech
+
