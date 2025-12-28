@@ -62,6 +62,11 @@ requirements
 2. faiss-cpu
 3. numpy
 4. tqdm
+py -m venv venv
+py -m pip install --upgrade pip
+pip install pymupdf faiss-cpu numpy tqdm
+python -c "import fitz, faiss; print('ALL OK')"
+
 -----
 
  How to Run
@@ -89,4 +94,5 @@ Support multiple PDFs
 Improve entity extraction for unstructured text
 Add UI (Streamlit / Web app)
 Add OCL Tech
+
 
