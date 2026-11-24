@@ -1,4 +1,4 @@
- RAG System (No LLM)
+ RAG System 
 
 This project is a **Retrieval-Augmented Generation (RAG) system without using any Large Language Model (LLM)**.
 It answers questions strictly based on the content present in the provided PDF documents.
